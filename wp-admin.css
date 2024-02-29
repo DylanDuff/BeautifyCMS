@@ -1,0 +1,98 @@
+body.wp-admin{
+  background-color:#F6F7FA!important;
+}
+#wpwrap {
+
+}
+#wpcontent{
+  /*display:none;*/
+}
+#adminmenuwrap {
+  padding-left: 6px;
+  background-color:transparent!important;
+}
+#adminmenu,
+#adminmenuback {
+  background-color:transparent!important;
+  margin-top: 0px!important;
+}
+#adminmenuback {
+  padding-right: 40px;
+}
+#adminmenu div.wp-menu-name,
+#adminmenu div.wp-menu-image:before,
+#adminmenu .wp-submenu a,
+#wpadminbar li .ab-item,
+#wpadminbar li .ab-label,
+#wpadminbar .ab-icon:before,
+.wp-admin #wpadminbar #wp-admin-bar-site-name>.ab-item:before{
+  /*color: #6e6e6e!important;*/
+  color: #7B7B85!important;
+}
+#adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head,
+#adminmenu .wp-menu-arrow, 
+#adminmenu .wp-menu-arrow div, 
+#adminmenu li.current a.menu-top, 
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu,
+.wp-submenu,
+#adminmenu li.menu-top:hover,
+#adminmenu li.opensub>a.menu-top,
+#adminmenu li>a.menu-top:focus {
+  background-color: #fff!important;
+}
+#adminmenu a:hover {
+  box-shadow: none!important;
+}
+li.wp-has-submenu.wp-not-current-submenu:focus-within:after {
+  display:none;
+}
+
+li.wp-menu-open {
+  border-radius: .5rem;
+  overflow: hidden;
+}
+
+#wpadminbar {
+  /*border-bottom: 1px solid #F0F1F4;*/
+  background-color: transparent!important;
+  backdrop-filter:blur(10px);
+}
+#wp-admin-bar-root-default li{
+  border: 1px solid #F0F1F4;
+  margin: 5px!important;
+  margin-right: 0px!important;
+  background-color: #fff!important;
+  border-radius: .5rem!important;
+}
+
+#wpfooter {
+  display: flex;
+  align-items:flex-end;
+  flex-direction:column;
+}
+
+#wpbody[role="main"] {
+  padding: 0px 20px;
+  background-color:#fff;
+  margin: 20px 10px;
+  margin-left: 0px;
+  border-radius: .5rem;
+  border: 1px solid #F0F1F4;
+}
+.postbox {
+  border-radius: .75rem;
+  border:1px solid #F0F1F4!important;
+}
+.postbox-header {
+  border-bottom: 0px!important;
+}
+
+li.wp-has-current-submenu {
+  border: 1px solid #F0F1F4!important;
+}
+
+ul#adminmenu a.wp-has-current-submenu:after, ul#adminmenu>li.current>a.current:after {
+  display: none;
+}
+
+#adminmenu .wp-submenu li.current a {}
